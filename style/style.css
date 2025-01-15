@@ -1,7 +1,14 @@
 .container-box {
   border: 2px solid rgb(51, 215, 133);
   display: flex;
+  /* justify-content: space-around; */
+  height: 250px;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
 .box {
   border: 2px dashed rgb(12, 21, 25);
   width: 50px;
